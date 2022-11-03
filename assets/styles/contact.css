@@ -1,0 +1,95 @@
+.top_page {
+    flex-direction: column;
+}
+
+.top_page h1, .top_page h1 span {
+    font-size: 55px;
+    font-weight: 900;
+}
+
+.top_page h1 span {
+    color: var(--main-orange);
+}
+
+.top_page p {
+    margin-top: 20px;
+    display: inline-block;
+    font-size: 15px;
+}
+
+.cont_info {
+    display: flex;
+    width: 1100px;
+    max-width: 1170px;
+    justify-content: space-between;
+}
+
+.cont_nums {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+.cont_nums li {
+    font-size: 15px;
+    opacity: .8;
+    margin-bottom: 10px;
+}
+
+li span {
+    font-size: 16px;
+    color: var(--main-orange);
+    cursor: pointer;
+}
+
+.cont_nums li:nth-child(2n) {
+    margin-bottom: 25px;
+}
+
+.cont_email {
+    display: flex;
+    flex-direction: column;
+}
+
+.cont_email p{
+    font-size: 16px;
+    line-height: 32px;
+    margin-bottom: 24px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea {
+    border: none;
+    background-color: transparent;
+    background: #333;
+    border: 1px solid #444;
+    color: #fff;
+    padding: 6px 12px 6px 29px;
+    border-radius: 2rem;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+input {
+    height: 46px;
+}
+
+.btn {
+    border: none;
+    padding: 1rem 1.5rem;
+    border-radius: 2rem;
+    border: 1px solid var(--main-orange);
+    background-color: var(--main-orange);
+    color: var(--text-white);
+    transition: all 0.5s;
+    width: fit-content;
+}
+
+.btn:hover {
+    background-color: gray;
+    border: 1px solid  gray;
+}

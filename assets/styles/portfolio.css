@@ -1,0 +1,76 @@
+.top_page {
+    flex-direction: column;
+}
+
+.top_page h1, .top_page h1 span {
+    font-size: 55px;
+    font-weight: 900;
+}
+
+.top_page h1 span {
+    color: var(--main-orange);
+}
+
+.top_page p {
+    margin-top: 20px;
+    display: inline-block;
+    font-size: 15px;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    max-width: 1170px;
+    padding-top: 60px;
+    padding-bottom: 54px;
+}
+
+.inner_proj {
+    display: flex;
+}
+
+.project {
+    width: 320px;
+    height: 180px;
+    background-size: cover;
+    background-position: center;
+    margin: 10px 10px;
+    border-radius: 0.5rem;
+}
+
+.inner_proj .one {
+    background-image: url(../images/proj1.jpg);
+}
+
+.inner_proj .two {
+    background-image: url(../images/proj2.jpg);
+}
+
+.inner_proj .three {
+    background-image: url(../images/proj3.jpg);
+}
+
+.inner_proj .four {
+    background-image: url(../images/proj4.jpg);
+}
+
+.inner_proj .five {
+    background-image: url(../images/proj5.jpg);
+}
+
+.inner_proj .six {
+    background-image: url(../images/proj1.jpg);
+}
+
+.inner_proj .seven {
+    background-image: url(../images/proj2.jpg);
+}
+
+.inner_proj .eight {
+    background-image: url(../images/proj3.jpg);
+}
+
+.inner_proj .nine {
+    background-image: url(../images/proj4.jpg);
+}
+
